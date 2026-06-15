@@ -1,5 +1,5 @@
 module example-service {
-  namespace "http://example.com/service";
+  namespace "http://qubuhub.org/service";
   prefix svc;
 
   container service {
