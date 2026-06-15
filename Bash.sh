@@ -1,3 +1,4 @@
+scripts/upload-lobs.py
 git clone https://chromium.googlesource.com/website
 cd website
  git clone https://chromium.googlesource.com/chromium/tools/depot_tools.git
