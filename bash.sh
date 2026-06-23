@@ -6,7 +6,6 @@ $ curl https://yangcatalog.org/api/search/vendors
 $ curl https://yangcatalog.org/api/search/catalog
 git clone https://github.com/auraecosystem/turbo.git
 cd turbo
-tree -L 2
 npm install -g elm-live
 npm install -g create-elm-app
 create-elm-app my-app
@@ -16,3 +15,9 @@ npx elm-live src/Main.elm --open -- --output=main.js
 mkdir my-elm-app
 cd my-elm-app
 elm init
+init
+# Mac and Linux
+cd ~/Desktop
+
+# Windows (but with <username> filled in with your user name)
+cd C:\Users\<username>\Desktop
