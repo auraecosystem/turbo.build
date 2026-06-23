@@ -13,3 +13,20 @@ pnpm add turbo --save-dev --workspace-root
 bun install turbo --global
 # Install in repository
 bun install turbo --dev
+```
+```json
+{
+  "$schema": "https://turborepo.dev/schema.json",
+  "tasks": {
+    "build": {
+      "outputs": ["dist/**"]
+    },
+    "check-types": {
+      "dependsOn": ["^check-types"]
+    },
+    "dev": {
+      "persistent": true,
+      "cache": false
+    }
+  }
+}
